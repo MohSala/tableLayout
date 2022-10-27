@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/table_main"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/androidVersion"
+        android:hint="Enter Android Version"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/androidName"
+        android:hint="Enter Android Name"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/submit"
+        android:text="ADD"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        />
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Version"
+            android:layout_width="200sp"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Code Name"
+            android:layout_width="200sp"
+            android:gravity="center_horizontal"
+
+            />
+    </TableRow>
+
+</TableLayout>
